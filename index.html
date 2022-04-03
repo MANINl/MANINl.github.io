@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- tags requeridos -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Bootstrap estilos css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <!--Bootstrap iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--CSS personal-->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!--Favicon-->
+    <link rel="icon" href="/img/favicon.ico">
+    <!--manifest para que sea instalable la web-->
+    <link rel="manifest" href="./manifest.json">
+    <!--Titulo-->
+    <title>Parroquia Santa Catalina</title>
+</head>
+
+<body>
+    <!--========================================================== -->
+    <!-- ENCABEZADO -->
+    <!--========================================================== -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="log">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="./img/logoParroquia.png" alt="logo de la Parroquia" width="30" height="40px">
+                <h1> Parroquia Santa Catalina</h1>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#ubicacion">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#redes">Redes Sociales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#horarios">Horarios de misas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!--========================================================== -->
+    <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+    <div id="carouselInformacion" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselInformacion" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 2 ">
+            </button>
+            <button type="button" data-bs-target="#carouselInformacion" data-bs-slide-to="1" aria-label="Slide 2">
+            </button>
+            <button type="button" data-bs-target="#carouselInformacion" data-bs-slide-to="2" aria-label="Slide 3">
+            </button>
+            <button type="button" data-bs-target="#carouselInformacion" data-bs-slide-to="3" aria-label="Slide 4">
+            </button>
+            <button type="button" data-bs-target="#carouselInformacion" data-bs-slide-to="4" aria-label="Slide 5">
+            </button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3500">
+                <div id="imagen1">
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2800">
+                <div id="imagen2">
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="8000">
+                <div class="avisos">
+                    <h1>Información</h1>
+                    <ul>
+                        <li>Confeciones los días Jueves y Viernes</li>
+                        <li><a class="semana-santa" href="#semana-santa">Semana santa del 10 al 17</a>
+                        </li>
+                        <li>Cuaresma 2 de marzo al 10 de abril</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3500">
+                <div id="imagen3">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Santa Catalina de Alejandria</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3500">
+                <div id="imagen4">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselInformacion" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon aria-hidden=" true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselInformacion" data-bs-slide="next">
+            <span class="carousel-control-next-icon aria-hidden=" true></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    <br>
+    <!--========================================================== -->
+    <!-- Horarios-->
+    <!--========================================================== -->
+    <section class="w-75 border border-secondary col-lg-9 m-auto text-center">
+        <a name="horarios">
+            <h2 class="p-3 fs-2">Horarios de misas</h2>
+    </section>
+    <!--============================================================-->
+    <!-- Semana ordinaria-->
+    <!--============================================================-->
+    <section>
+        <div class="row w-75 mx-auto">
+            <div class="col-lg-4 border border-secondary">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Lunes</h3>
+                    <p class="px-4">
+                    <ul>
+                        <li>Santa Misa 5:00pm</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 border border-secondary">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Martes</h3>
+                    <p class="px-4">
+                    <ul>
+                        <li>Santa Misa 5:00pm</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 border border-secondary">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Miercoles</h3>
+                    <p class="px-4">
+                    <ul>
+                        <li>Santa Misa 5:00pm</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 border border-secondary">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Jueves</h3>
+                    <p class="px-4">
+                    <ul>
+                        <li>Santa Misa 5:00pm</li>
+                        <li>Confeciones 2:30pm - 5:00pm</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 border border-secondary">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Viernes</h3>
+                    <p class="px-4">
+                    <ul>
+                        <li>Santa Misa 5:00pm</li>
+                        <li>Confeciones 2:30pm - 5:00pm</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 border border-secondary">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Sábado</h3>
+                    <p class="px-4">
+                    <ul>
+                        <li>Santa Misa 5:00pm</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="border border-secondary">
+                <div class="col-lg-4 col-md-12 col-sm-12 m-auto">
+                    <h3 class="text-center">Domingo</h3>
+                    <p class="px-4">
+                    <ul>
+                        <li>
+                            <p>Santa Misa 5:00pm</p>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========================================================== -->
+    <!-- Ubicacion-->
+    <!--========================================================== -->
+    <a name="ubicacion">
+        <section class="justify-content-center align-items-center text-center " id="intro">
+            <h1 class="p-3 fs-2 border-top border-3">
+                Parroquia Santa Catalina de Alejandria
+            </h1>
+            <h3>Ubicación</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2739.7706535958414!2d-89.17919802749648!3d13.801717217474511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633be66976ae0d%3A0x1e13bfb122f480ed!2sParroquia%20Santa%20Catalina%20de%20Alejandr%C3%ADa!5e0!3m2!1sen!2ssv!4v1648659891035!5m2!1sen!2ssv"
+                class="mapa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a name="semana-santa"></a>
+            <p> Avenida Quirino Chavez Sur, Apopa</p>
+        </section>
+        <!--========================================================== -->
+        <!-- Programacion de Semana Santa-->
+        <!--========================================================== -->
+        <section class="border border-secondary">
+            <div class="d-flex flex-column justify-content-center align-items-center text-center border border-secondary"
+                id="intro">
+                <h1 class="mb-2 fs-2">
+                    Programación de
+                    <span class="semana-santa">Semana Santa</span>.
+                </h1>
+                <p class="fs-5">
+                    "Cuaresma: un tiempo para renovar la fe, la esperanza y la caridad”."
+                </p>
+            </div>
+            <!--========================================================== -->
+            <!-- Columnas de semana-->
+            <!--========================================================== -->
+            <div class="row w-75 mx-auto" id="servicios-fila-1">
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-start icono-wrap">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4">Domingo de Ramos 10/04/2022</h3>
+                        <p class="px-4">
+                        <ul>
+                            <li class="pt-3">Procesion de palmas 7:00am<br>(Limite los angeles y el castillo, punto de
+                                buses)</li>
+                            <li class="pt-3">Santa Misa 8:00am<br>(Templo Sede Parroquial)</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-start icono-wrap">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4">Lunes 11/04/2022</h3>
+                        <p class="px-4">
+                        <ul>
+                            <li class="pt-3">Retiro de niños 8:00am - 11:00am<br>(Templo Sede Parroquial)</li>
+                            <li class="pt-3">Santa Misa 6:00pm<br>(Templo Sede Parroquial)</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-start icono-wrap">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4">Martes 12/04/2022</h3>
+                        <p class="px-4">
+                        <ul>
+                            <li class="pt-3">Retiro de jovenes 8:00am - 12:00am<br>(Templo Sede Parroquial)</li>
+                            <li class="pt-3">Santa Misa 6:00pm<br>(Templo Sede Parroquial)</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-start icono-wrap">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4">Miercoles 13/04/2022</h3>
+                        <p class="px-4">
+                        <ul>
+                            <li class="pt-3">Retiro de adultos 4:00pm - 6:00pm<br>(Templo Sede Parroquial)</li>
+                            <li class="pt-3">Santa Misa 6:00pm<br>(Templo Sede Parroquial)</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-start icono-wrap">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4">Jueves Santo 15/04/2022</h3>
+                        <p class="px-4">
+                        <ul>
+                            <li class="pt-3">Misa de la Cena del Señor 6:00pm<br>(Parroquia)</li>
+                            <li>Procecion del silencio 9:00pm<br>(Parroquia)</li>
+                        </ul class="pt-3">
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-start">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4">Viernes Santo 16/04/2022</h3>
+                        <p class="px-4">
+                        <ul>
+                            <li class="pt-3">Viacrucis 8:00am<br>(Entrada de San Carlos)</li>
+                            <li class="pt-3">Santos oficios y Adoracion de la Cruz 3:00pm<br>(Parroquia)</li>
+                            <li class="pt-3">Procesion del Santo Entierro 6:00pm<br>(Parroquia)</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-start">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4">Sábado de Gloria 16/04/2022</h3>
+                        <p class="px-4">
+                        <ul>
+                            <li class="pt-3">Vigilia Pascual 8:00pm<br>(Parroquia)</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row  mx-auto" id="servicios-fila-1">
+                <div class="col-lg-4 col-md-12 col-sm-12 m-auto">
+                    <h3 class="text-center">Domingo de Resurección 17/04/2022</h3>
+                    <p class="px-4">
+                    <ul>
+                        <li>
+                            <p>Santa Misa 10:00am <br>(Parroquia)</p>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--========================================================== -->
+        <!-- SECCION ACERCA DE NOSOTROS-->
+        <!--========================================================== -->
+        <section>
+            <div class="container w-60 m-auto text-center border border-secondary">
+                <a name="redes">
+                    <h1 class="mt-5 fs-2">
+                        Siguenos en nuestras redes sociales
+                    </h1>
+                    <p class="fs-4 text-center">
+                        <a href="https://www.facebook.com/comunicacionesparroquiales/"><i
+                                class="bi-facebook"></i><br>Comunicaciones<br>Parroquiales<br>Apopa</a>
+                    </p>
+            </div>
+        </section>
+        <!--========================================================== -->
+        <!--FOOTER-->
+        <!--========================================================== -->
+        <footer id="footer" class="top-space">
+            <div class="footer1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 widget">
+                            <a name="contacto">
+                                <h3 class="widget-title">Contacto</h3>
+                                <div class="widget-body">
+                                    <p>+503 2216-0086<br>
+                                        <a href="mailto:#">manuelangel.em@gmail.com</a><br>
+                                        <br>
+                                        AV. QUIRINO CHAVEZ Y CALLE LEONARDO AZCUNAGA
+                                    </p>
+                                </div>
+                        </div>
+                        <div class="col-md-3 widget">
+                            <h3 class="widget-title">Paginas Recomendadas</h3>
+                            <div class="container">
+                                <a href="https://www.arzobispadosansalvador.org/"><i>Arsovispado</i></a>
+                                <a href="https://www.aciprensa.com/"><i>Aciprensa</i></a>
+                                <a href="https://www.vaticannews.va/es"><i>Vatican News</i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 widget">
+                            <h3 class="widget-title">Acerca de</h3>
+                            <div class="widget-body">
+                                <p>Somos comunicaciones Apopa, medio de comunicación interna de la Iglesia católica
+                                "Santa Catalina de Alejandría" de Apopa.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 widget">
+                            <h3 class="widget-title">Crear acceso directo al inicio</h3>
+                            <div class="widget-body">
+                                <button>Instalar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 widget">
+                            <div class="widget-body">
+                                <p class="text-right">
+                                    Copyright &copy; 2022. Designed by <a href="#" rel="designer">Raúl Ascencio</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+</body>
+
+</html>

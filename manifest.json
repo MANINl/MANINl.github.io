@@ -1,0 +1,18 @@
+{
+    "short_name": "Parroquia",
+    "name":"Parroquia Santa Catalina de Alejandria",
+    "start_url":"./index.html",
+    "display":"fullscreen",
+    "icons":[
+        {
+            "src":"/img/icons/icon192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src":"/img/icons/icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
