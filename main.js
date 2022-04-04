@@ -16,16 +16,21 @@ typewriter
   .start();
   
 
-let button = document.querySelector("footer button");
+let button1 = document.querySelector("footer button");
+let button2 = document.querySelector("div div div div button");
+
 
 let prompEvent= null;
 window.addEventListener("beforeinstallprompt",(e)=>{
-  console.log("lista para instalar");
   prompEvent = e;
-  button.classList.add("active");
+  button1.classList.add("active");
+  button2.classList.add("active");
 }
 )
-button.addEventListener("click", (e)=>{
+button1.addEventListener("click", (e)=>{
+  prompEvent.prompt();
+})
+button2.addEventListener("click", (e)=>{
   prompEvent.prompt();
 })
 
