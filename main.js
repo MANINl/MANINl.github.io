@@ -14,7 +14,6 @@ typewriter
   .pauseFor(200)
   .deleteChars(10)
   .start();
-  
 
 let button1 = document.querySelector("footer button");
 let button2 = document.querySelector("div div div div button");
